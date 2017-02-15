@@ -1,141 +1,516 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Node-RED in Bluemix</title>
+	<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Healthy Farm | Just another WordPress site</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="pingback" href="xmlrpc.html"/>
+<link rel="icon" type="image/x-icon" href="wp-content/themes/healthy-farm/images/favicon.ico"/>
+<link rel="alternate" type="application/rss+xml" title="Healthy Farm &raquo; Feed" href="indexd784.html?feed=rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Healthy Farm &raquo; Comments Feed" href="indexa6da.html?feed=comments-rss2"/>
+<link rel="alternate" type="application/rss+xml" title="Healthy Farm &raquo; Home 5 Comments Feed" href="index0547.html?feed=rss2&amp;page_id=3314"/>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/healthyfarm.themerex.net\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.5.6"}};
+			!function(a,b,c){function d(a){var c,d,e,f=b.createElement("canvas"),g=f.getContext&&f.getContext("2d"),h=String.fromCharCode;if(!g||!g.fillText)return!1;switch(g.textBaseline="top",g.font="600 32px Arial",a){case"flag":return g.fillText(h(55356,56806,55356,56826),0,0),f.toDataURL().length>3e3;case"diversity":return g.fillText(h(55356,57221),0,0),c=g.getImageData(16,16,1,1).data,d=c[0]+","+c[1]+","+c[2]+","+c[3],g.fillText(h(55356,57221,55356,57343),0,0),c=g.getImageData(16,16,1,1).data,e=c[0]+","+c[1]+","+c[2]+","+c[3],d!==e;case"simple":return g.fillText(h(55357,56835),0,0),0!==g.getImageData(16,16,1,1).data[0];case"unicode8":return g.fillText(h(55356,57135),0,0),0!==g.getImageData(16,16,1,1).data[0]}return!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g,h,i;for(i=Array("simple","flag","unicode8","diversity"),c.supports={everything:!0,everythingExceptFlag:!0},h=0;h<i.length;h++)c.supports[i[h]]=d(i[h]),c.supports.everything=c.supports.everything&&c.supports[i[h]],"flag"!==i[h]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[i[h]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">img.wp-smiley,img.emoji{display:inline!important;border:none!important;box-shadow:none!important;height:1em!important;width:1em!important;margin:0 .07em!important;vertical-align:-0.1em!important;background:none!important;padding:0!important;}</style>
+<link rel='stylesheet' id='jquery_reject-style-css' href='wp-content/themes/healthy-farm/js/jreject/css/jquery.reject.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='rs-plugin-settings-css' href='wp-content/plugins/revslider/rs-plugin/css/settings1dc6.css?ver=4.6.5' type='text/css' media='all'/>
+<style id='rs-plugin-settings-inline-css' type='text/css'>.tp-caption a{color:#ff7302;text-shadow:none;-webkit-transition:all 0.2s ease-out;-moz-transition:all 0.2s ease-out;-o-transition:all 0.2s ease-out;-ms-transition:all 0.2s ease-out}.tp-caption a:hover{color:#ffa902}</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='wp-content/plugins/woocommerce/assets/css/woocommerce-layoutc141.css?ver=2.6.1' type='text/css' media='all'/>
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreenc141.css?ver=2.6.1' type='text/css' media='only screen and (max-width: 768px)'/>
+<link rel='stylesheet' id='woocommerce-general-css' href='wp-content/plugins/woocommerce/assets/css/woocommercec141.css?ver=2.6.1' type='text/css' media='all'/>
+<link rel='stylesheet' id='theme-font-Cantarell-css' href='http://fonts.googleapis.com/css?family=Cantarell:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all'/>
+<link rel='stylesheet' id='theme-font-Raleway-css' href='http://fonts.googleapis.com/css?family=Raleway:100,100italic,300,300italic,400,400italic,500,500italic,700,700italic,900,900italic&amp;subset=latin,cyrillic-ext,latin-ext,cyrillic' type='text/css' media='all'/>
+<link rel='stylesheet' id='fontello-css' href='wp-content/themes/healthy-farm/includes/fontello/css/fontello.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='animation-css' href='wp-content/themes/healthy-farm/includes/fontello/css/animation.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='main-style-css' href='wp-content/themes/healthy-farm/style.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='shortcodes-css' href='wp-content/themes/healthy-farm/includes/shortcodes/shortcodes.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='responsive-css' href='wp-content/themes/healthy-farm/css/responsive.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='woo-style-css' href='wp-content/themes/healthy-farm/css/woo-style.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='messages-style-css' href='wp-content/themes/healthy-farm/js/messages/_messages.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='js_composer_front-css' href='wp-content/plugins/js_composer/assets/css/js_composer.min0147.css?ver=4.12' type='text/css' media='all'/>
+<script type='text/javascript' src='wp-includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.tools.min1dc6.js?ver=4.6.5'></script>
+<script type='text/javascript' src='wp-content/plugins/revslider/rs-plugin/js/jquery.themepunch.revolution.min1dc6.js?ver=4.6.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View Cart","cart_url":"http:\/\/healthyfarm.themerex.net\/?page_id=3965","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.minc141.js?ver=2.6.1'></script>
+<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-cart0147.js?ver=4.12'></script>
+<link rel='https://api.w.org/' href='index52f0.html?rest_route=/'/>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml"/>
+<meta name="generator" content="WordPress 4.5.6"/>
+<meta name="generator" content="WooCommerce 2.6.1"/>
+<link rel="canonical" href="index.html"/>
+<link rel='shortlink' href='index.html'/>
+<link rel="alternate" type="application/json+oembed" href="indexffb7.html?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fhealthyfarm.themerex.net%2F"/>
+<link rel="alternate" type="text/xml+oembed" href="indexd35d.html?rest_route=%2Foembed%2F1.0%2Fembed&amp;url=http%3A%2F%2Fhealthyfarm.themerex.net%2F&amp;format=xml"/>
+<script type="text/javascript">
+			jQuery(document).ready(function() {
+				// CUSTOM AJAX CONTENT LOADING FUNCTION
+				var ajaxRevslider = function(obj) {
+				
+					// obj.type : Post Type
+					// obj.id : ID of Content to Load
+					// obj.aspectratio : The Aspect Ratio of the Container / Media
+					// obj.selector : The Container Selector where the Content of Ajax will be injected. It is done via the Essential Grid on Return of Content
+					
+					var content = "";
 
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+					data = {};
+					
+					data.action = 'revslider_ajax_call_front';
+					data.client_action = 'get_slider_html';
+					data.token = '0930d02eca';
+					data.type = obj.type;
+					data.id = obj.id;
+					data.aspectratio = obj.aspectratio;
+					
+					// SYNC AJAX REQUEST
+					jQuery.ajax({
+						type:"post",
+						url:"http://healthyfarm.themerex.net/wp-admin/admin-ajax.php",
+						dataType: 'json',
+						data:data,
+						async:false,
+						success: function(ret, textStatus, XMLHttpRequest) {
+							if(ret.success == true)
+								content = ret.data;								
+						},
+						error: function(e) {
+							console.log(e);
+						}
+					});
+					
+					 // FIRST RETURN THE CONTENT WHEN IT IS LOADED !!
+					 return content;						 
+				};
+				
+				// CUSTOM AJAX FUNCTION TO REMOVE THE SLIDER
+				var ajaxRemoveRevslider = function(obj) {
+					return jQuery(obj.selector+" .rev_slider").revkill();
+				};
 
-	<link href="css/simplegrid.css" rel="stylesheet" media="screen">
-	<link href="css/style.css" rel="stylesheet" media="screen">
-
-
+				// EXTEND THE AJAX CONTENT LOADING TYPES WITH TYPE AND FUNCTION
+				var extendessential = setInterval(function() {
+					if (jQuery.fn.tpessential != undefined) {
+						clearInterval(extendessential);
+						if(typeof(jQuery.fn.tpessential.defaults) !== 'undefined') {
+							jQuery.fn.tpessential.defaults.ajaxTypes.push({type:"revslider",func:ajaxRevslider,killfunc:ajaxRemoveRevslider,openAnimationSpeed:0.3});   
+							// type:  Name of the Post to load via Ajax into the Essential Grid Ajax Container
+							// func: the Function Name which is Called once the Item with the Post Type has been clicked
+							// killfunc: function to kill in case the Ajax Window going to be removed (before Remove function !
+							// openAnimationSpeed: how quick the Ajax Content window should be animated (default is 0.3)
+						}
+					}
+				},30);
+			});
+		</script>
+<style type="text/css">.recentcomments a{display:inline!important;padding:0!important;margin:0!important;}</style>
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://healthyfarm.themerex.net/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://healthyfarm.themerex.net/wp-content/plugins/js_composer/assets/css/vc-ie8.min.css" media="screen"><![endif]--><noscript><style type="text/css">.wpb_animate_when_almost_visible{opacity:1;}</style></noscript>
 </head>
 <body>
 
-<div class="header">
-    <div class="header-content">
-        <a href="/"><img class="logo" src="images/node-red.png" /> Node-RED in Bluemix</a>
-    </div>
+<body class="home page page-id-3314 page-template-default wpb-js-composer js-comp-ver-4.12 vc_responsive">
+<div id="wrap" class="wrap   fullWidth  menuStyle1 menuSmartScrollShow blogStyleExcerpt  bodyStyleFullWide  menuStyleFixed visibleMenuDisplay logoImageStyle logoStyleBG ">
+<div id="wrapBox" class="wrapBox">
+<header id="header">
+<div class="menuFixedWrapBlock"></div>
+<div class="menuFixedWrap">
+<a href="#" class="openMobileMenu"></a>
+<a href="#" class="openTopMenu"></a>
+<div class="usermenuArea">
+<ul class="usermenuList">
+<li class="usermenuLogin"><a href="#user-popUp" class="user-popup-link">Login</a></li>
+</ul>
 </div>
-<!-- Grid 1 -->
-<div class="title">
-    <div class="grid">
-        <div class="col-1-1">
-            <div class="content">
-                <h1>Node-RED in Bluemix</h1>
-                <h2>A visual tool for wiring the Internet of Things</h2>
-                <img src="images/node-red-title-flow.png" />
-            </div>
-        </div>
-    </div>
+<div class="wrapTopMenu">
+<div class="topMenu main">
+<ul id="mainmenu" class=""><li id="menu-item-29" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-29"><a href="#">Home</a>
+<ul class="sub-menu">
+<li id="menu-item-3399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3399" href="red/">Setting</a></li>
+</ul>
+</li>
+<li id="menu-item-4081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4081"><a href="index2a8f.html?page_id=4036">About us</a></li>
+<li id="menu-item-37" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-37"><a href="#">Features</a>
+<ul class="sub-menu">
+<li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="index88c8.html?page_id=1524">Typography</a></li>
+<li id="menu-item-2967" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2967"><a href="index094d.html?cat=81">Shortcodes</a></li>
+<li id="menu-item-1519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1519"><a href="index950b.html?page_id=1512">Under construction</a></li>
+<li id="menu-item-1543" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1543"><a href="index6856.html?cat=011">Page 404</a></li>
+<li id="menu-item-4028" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4028"><a href="doc/index.html">Documentation</a></li>
+<li id="menu-item-4370" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4370"><a href="indexb825.html?page_id=4345">Support</a></li>
+</ul>
+</li>
+<li id="menu-item-2635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2635"><a href="#">Manage User</a>
+<ul class="sub-menu">
+<li id="menu-item-3603" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3603"><a href="index89c5.html?cat=146">Add User</a></li>
+<li id="menu-item-3602" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3602"><a href="index6dd9.html?cat=145">Edit User</a></li>
+<li id="menu-item-1864" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1864"><a href="#"> Update User</a>
+<ul class="sub-menu">
+<li id="menu-item-1866" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1866"><a href="index7a80.html?p=3621">Post with sidebar</a></li>
+<li id="menu-item-1865" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1865"><a href="indexbc9e.html?p=299">Post without sidebar</a></li>
+<li id="menu-item-3605" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3605"><a href="indexaf4f.html?p=1805">Review Post</a></li>
+</ul>
+</li>
+</ul>
+</li>
+
+<li id="menu-item-1481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481"><a href="indexd97f.html?page_id=1476">Contact Us</a></li>
+</ul> </div>
 </div>
-
-<!-- Grid 1/2 -->
-<div class="row2">
-    <div class="grid">
-        <div class="col-1-2">
-            <div class="content blurb">
-            <p>Node-RED provides a browser-based editor that makes it easy to wire together flows that can be deployed to the runtime in a single-click.</p>
-            <p>The version running here has been customised for the Bluemix cloud environment.</p>
-            <p>More information about Node-RED, including documentation, can be found at <a href="http://nodered.org">nodered.org</a>.</p>
-            </div>
-        </div>
-        <div class="col-1-2">
-            <div class="content blurb">
-                <p style="text-align: center"><a style="width:350px;" class="button" href="red/">Go to your Node-RED flow editor</a></p>
-                <p class="insecure hide" style="text-align: center"><a href="#password-protecting">Learn how to password-protect your instance</a></p>
-                <p style="text-align: center"><a href="#custom">Learn how to customise Node-RED</a></p>
-            </div>
-        </div>
-    </div>
+</div>  
+<div class="logoHeader">
+<a href="index.html"><img src="wp-content/themes/healthy-farm/images/logo.png" alt=""></a>
 </div>
+<h1 class="subTitle">Farm Sake</h1>
+</header>
+<div class="wrapContent">
+<div id="wrapWide" class="wrapWide">
+<!--[if lt IE 9]>
+			<center><div class="sc_infobox sc_infobox_style_info"><h4 class="sc_infobox_title">Your browser needs to be updated.</h4><span class="sc_infobox_line"></span><span class="sc_infobox_content">
+				<div class=" sc_columns  sc_columns_4">
+				<div class=" sc_columns_item  sc_columns_item_coun_1 odd first" ><span href=""   class="sc_icon icon-chrome sc_icon_center sc_icon_box sc_icon_box_circle" style="margin-bottom:5px;font-size:30px;font-size: 30px;line-height: 30px;width: 30px;height: 30px;"></span><a href='https://www.google.com/intl/en/chrome/browser/' target='_blank'>Chrome</a></div>
+				<div class=" sc_columns_item  sc_columns_item_coun_2 even" ><span href=""   class="sc_icon icon-safari sc_icon_center sc_icon_box sc_icon_box_circle" style="margin-bottom:5px;font-size:30px;font-size: 30px;line-height: 30px;width: 30px;height: 30px;"></span><a href='http://support.apple.com/kb/dl1531' target='_blank'>Safari</a></div>
+				<div class=" sc_columns_item  sc_columns_item_coun_3 odd" ><span href=""   class="sc_icon icon-firefox sc_icon_center sc_icon_box sc_icon_box_circle" style="margin-bottom:5px;font-size:30px;font-size: 30px;line-height: 30px;width: 30px;height: 30px;"></span><a href='http://www.mozilla.org/en-US/firefox/new/' target='_blank'>FireFox</a></div>
+				<div class=" sc_columns_item  sc_columns_item_coun_4 even" ><span href=""   class="sc_icon icon-ie sc_icon_center sc_icon_box sc_icon_box_circle" style="margin-bottom:5px;font-size:30px;font-size: 30px;line-height: 30px;width: 30px;height: 30px;"></span><a href='http://windows.microsoft.com/en-us/internet-explorer/download-ie' target='_blank'>Internet Exp</a>.</div>
+				</div>
 
-<!-- Grid 1/2 -->
-<div class="row3">
-    <div class="grid">
-        <div class="col-1-1">
-            <div class="content blurb">
-                <h3 id="custom">Customising your instance of Node-RED</h3>
-                <p>This template instance of Node-RED is enough to get you started creating flows.<p>
-                <p>You may want to customise it for your needs,
-                for example replacing this introduction page with your own, adding http authentication to the flow editor or adding new nodes to
-                the palette.</p>
-                <p>To start customising your instance of Node-RED, you can either download the application locally or use IBM DevOps Services to edit and deploy your changes directly.</p>
-                <div class="col-1-2">
-                    <div style="margin: 5px; border: 1px solid #ddd; border-radius: 5px; padding: 10px;">
-                        <h4>Using IBM DevOps Services</h4>
-                        <ol>
-                            <li>Within your Bluemix dashboard, open the overview page for the application.</li>
-                            <li>Click the link to <b>Add Git Integration</b> and follow the guide to import the application into IBM DevOps Services</li>
-                            <li>Once complete, click the <b>Edit Code</b> link to open it in IBM DevOps Services</li>
-                            <li>Customise the application following the guide below, commit your changes and push them back to Bluemix</li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="col-1-2">
-                    <div style="margin: 5px; border: 1px solid #ddd; border-radius: 5px; padding: 10px;">
-                        <h4>Downloading the application locally</h4>
-                        <ol>
-                            <li>Within your Bluemix dashboard, open the overview page for the application.</li>
-                            <li>Click on the <b>Start Coding</b> in the sidebar</li>
-                            <li>Follow the instructions there for downloading, editing and pushing back into Bluemix</li>
-                        </ol>
-                    </div>
-                </div>
-                <p style="clear:both"></p>
-
-                <h4 id="password-protecting">Password protect the flow editor</h4>
-                <p>By default, the editor is open for anyone to access and modify flows. To password-protect the editor:</p>
-                <ol>
-                  <li>In the Bluemix dashboard, select the 'Environment Variables' page for your application</li>
-                  <li>Add the following user-defined variables:
-                    <ul>
-                      <li><code>NODE_RED_USERNAME</code> - the username to secure the editor with</li>
-                      <li><code>NODE_RED_PASSWORD</code> - the password to secure the editor with</li>
-                     </ul>
-                   </li>
-                   <li>Click <code>Save</code>.</li>
-                </ol>
-
-                <h4>Adding new nodes to the palette</h4>
-                <ol>
-                    <li>There is a growing collection of additional nodes that can be added to the Node-RED editor.
-                    You can search for available nodes in the <a target="_blank" href="http://flows.nodered.org">Node-RED library</a>.</li>
-                    <li>Edit the file <code>package.json</code> and add the required node package to the <code>dependencies</code>
-                    section. The format is:
-                    <pre>"node-red-node-package-name":"x.x.x"</pre>
-                    Where <code>x.x.x</code> is the desired version number.</li>
-                </ol>
-
-                <h4>Upgrading the version of Node-RED</h4>
-                <ol><li>This boilerplate is configured to grab the latest stable release of Node-RED whenever the
-                    application is pushed into Bluemix. Simply commit and push a change from IBM DevOps Services
-                    or push from your local copy to trigger an update. You can find out about the latest version at <a href="http://nodered.org">nodered.org</a>.</li>
-                </ol>
-
-                <h4>Changing the static web content</h4>
-                <ol><li>The page you are reading now is served as static content from the application. This can be replaced
-                with whatever content you want in the <code>public</code> directory.</li></ol>
-
-                <h4>Remove static web content and serve the flow editor from the root path</h4>
-                <ol><li>In the file <code>bluemix-settings.js</code>, delete the <code>httpStatic</code> and <code>httpAdminRoot</code> entries.</li></ol>
-            </div>
-        </div>
-    </div>
+			</span></div></center>			<![endif]-->
+<div class="content">
+<section class="itemscope singlePage  emptyPostFormatIcon  emptyPostTitle  emptyPostInfo post-3314 page type-page status-publish hentry">
+<article class="postContent">
+<div class="postTextArea">
+<div class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="sc_blogger sc_blogger_horizontal style_portfolio_big portfolioWrap sc_blogger_indent"><div class="masonryWrap"><section class="masonryStyle isotopeWrap portfolio_big" data-foliosize="600">
+<article class="isotopeItem post_format_standard isw_1 odd" data-postid="3629" data-wdh="620" data-hgt="620" data-incw="1" data-inch="1">
+<div class="isotopeItemWrap">
+<div class="thumb">
+<img src="wp-content/uploads/2015/01/12-620x620.jpg" alt="Gluten-Free Baked Goods">
 </div>
-
-<div class="footer">
-    <div class="grid">
-        <div class="content">
-            <div class="ets-link"><a href="http://ibm.com/blogs/et">Node-RED is a creation of IBM Emerging Technology</a></div>
-            <div class="ets-link"><a href="http://ibm.com/blogs/et"><img class="ets-globe" src="images/ets-globe.png" /> </a></div>
-        </div>
-    </div>
+<div class="isotopeRating" title="Rating: 4.5 from 5"><span class="rInfo">4.5</span><span class="rDelta"><span class="icon-star"></span></span></div>
+<div class="isotopeMore icon-down-open-big"></div>
+<div class="isotopeContentWrap">
+<div class="isotopeContent">
+<h4 class="isotopeTitle">
+Gluten-Free Baked Goods </h4>
+<div class="isotopeExcerpt">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem...</div> </div>
 </div>
+</div>
+</article>
+<article class="isotopeItem post_format_standard isw_1 even" data-postid="3627" data-wdh="620" data-hgt="620" data-incw="1" data-inch="1">
+<div class="isotopeItemWrap">
+<div class="thumb">
+<img src="wp-content/uploads/2015/01/22-620x620.jpg" alt="Healthy Food Guide">
+</div>
+<div class="isotopeRating" title="Rating: 4.1 from 5"><span class="rInfo">4.1</span><span class="rDelta"><span class="icon-star"></span></span></div>
+<div class="isotopeMore icon-down-open-big"></div>
+<div class="isotopeContentWrap">
+<div class="isotopeContent">
+<h4 class="isotopeTitle">
+Healthy Food Guide </h4>
+<div class="isotopeExcerpt">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem...</div> </div>
+</div>
+</div>
+</article>
+<article class="isotopeItem post_format_standard isw_1 odd last" data-postid="3625" data-wdh="620" data-hgt="620" data-incw="1" data-inch="1">
+<div class="isotopeItemWrap">
+<div class="thumb">
+<img src="wp-content/uploads/2015/01/32-620x620.jpg" alt="Organic &##038; Natural">
+</div>
+<div class="isotopeRating" title="Rating: 3.6 from 5"><span class="rInfo">3.6</span><span class="rDelta"><span class="icon-star"></span></span></div>
+<div class="isotopeMore icon-down-open-big"></div>
+<div class="isotopeContentWrap">
+<div class="isotopeContent">
+<h4 class="isotopeTitle">
+Organic &#038; Natural </h4>
+<div class="isotopeExcerpt">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem...</div> </div>
+</div>
+</div>
+</article></section></div></div><div class="sc_content mainWrap" style=" width:1400px;"><p class="sc_text " style="margin-top:80px;margin-bottom:50px;font-weight:500;color:#1a1a1a;text-transform: uppercase;font-size: 36px;line-height: 43.2px;text-align: center">
+Welcome to Farm Sake!</p><div class=" sc_columns  sc_columns_3 sc_columns_indent" style=" width:1240px;"><div class=" sc_columns_item  sc_columns_item_coun_1 odd first" style="text-align:center"><div style="margin-bottom:35px !important;width:300px;display: inline-block;" class="sc_image align"><img src="wp-content/uploads/2015/01/Vector-Smart-Object2-300x174.png" alt=""/></div><h6 class="sc_title  sc_title_center" style="font-weight:700;color:#3f2803;text-transform: uppercase;font-size: 14px;">best quality products</h6><p class="sc_text " style="margin-top:10px;margin-left:25px;margin-right:25px;text-align: center">“We eliminated any possible pollution in our soils in order to deliver the purest organic produce to our customers&#8217; tables.“</p></div><div class=" sc_columns_item  sc_columns_item_coun_2 even" style="text-align:center"><div style="margin-bottom:35px !important;width:300px;display: inline-block;" class="sc_image align"><img src="wp-content/uploads/2015/01/Vector-Smart-Object1-300x174.png" alt=""/></div><h6 class="sc_title  sc_title_center" style="font-weight:700;color:#3f2803;text-transform: uppercase;font-size: 14px;">about us</h6><p class="sc_text " style="margin-top:10px;margin-left:25px;margin-right:25px;text-align: center">
+“We have assembled the best team whose members will gladly share their healthy lifestyle and experiences with you.“</p></div><div class=" sc_columns_item  sc_columns_item_coun_3 odd" style="text-align:center"><div style="margin-bottom:35px !important;width:300px;display: inline-block;" class="sc_image align"><img src="wp-content/uploads/2015/01/Vector-Smart-Object3-300x174.png" alt=""/></div><h6 class="sc_title  sc_title_center" style="font-weight:600;color:#3f2803;text-transform: uppercase;font-size: 14px;">
+what Farm Sake provides?</h6><p class="sc_text " style="margin-top:10px;margin-left:25px;margin-right:25px;text-align: center">
+“Currently, the European Union and the US require producers to obtain special certification to market food as organic.“</p></div></div><div class="sc_line  sc_line_style_solid" style="margin-top:55px;margin-bottom:85px;border-bottom-width:2px;border-bottom-style:solid;"></div><div class=" sc_columns  sc_columns_3 sc_columns_indent" style=" margin-left:25px; margin-right:25px;"><div class=" sc_columns_item  sc_columns_item_coun_1 odd first"><h3 class="sc_title  sc_title_left" style="margin-bottom:30px;text-transform: none;">
+featured SALE</h3><div style="margin-bottom:25px !important;width:405px;" class="sc_image align"><img src="wp-content/uploads/2015/01/11-405x260.png" alt=""/></div><p class="sc_text " style="text-align: left">
+Enjoy seasonal deals, coupons, recipes and tips from The Healthy Farm value guide.</p><a href="#" style=" margin-top:5px;" class="sc_button  sc_button_skin_dark sc_button_style_bg sc_button_size_medium">the health farm deal</a></div><div class=" sc_columns_item  sc_columns_item_coun_2 even"><h3 class="sc_title  sc_title_left" style="margin-bottom:30px;text-transform: none;">
+featured EVENT</h3><div style="margin-bottom:25px !important;width:405px;" class="sc_image align"><img src="wp-content/uploads/2015/01/12-405x260.png" alt=""/></div><p class="sc_text " style="text-align: left">
+Join us most Thursdays at 6pm CST for #healthyfarm Twitter chats.</p><a href="#" style=" margin-top:5px;" class="sc_button  sc_button_skin_dark sc_button_style_bg sc_button_size_medium">events</a></div><div class=" sc_columns_item  sc_columns_item_coun_3 odd"><h3 class="sc_title  sc_title_left" style="margin-bottom:30px;text-transform: none;">
+featured RECIPE</h3><div style="margin-bottom:25px !important;width:405px;" class="sc_image align"><img src="wp-content/uploads/2015/01/1916-405x259.jpg" alt=""/></div><p class="sc_text " style="text-align: left">
+These lightly spiced pillowy potato dumplings made with sweet potatoes are great with pesto or roasted veggies.</p><a href="#" style=" margin-top:5px;" class="sc_button  sc_button_skin_dark sc_button_style_bg sc_button_size_medium">sweet potato gnocchi</a></div></div><div class="sc_line  sc_line_style_solid" style="margin-top:70px;margin-bottom:85px;border-bottom-width:2px;border-bottom-style:solid;"></div><div class=" sc_columns  sc_columns_3 sc_columns_indent" style=" margin-left:25px; margin-right:25px;"><div class=" sc_columns_item  sc_columns_item_coun_1 odd first"><h3 class="sc_title  sc_title_left" style="margin-bottom:30px;text-transform: none;">organic FRUIT</h3><div style="margin-bottom:25px !important;width:405px;" class="sc_image align"><a href="wp-content/uploads/2015/01/221.jpg"><img src="wp-content/uploads/2015/01/221-405x260.jpg" alt=""/></a></div><p class="sc_text " style="text-align: left">
+Enjoy seasonal deals, coupons, recipes and tips from The Healthy Farm value guide.</p><a href="#" style=" margin-top:5px;" class="sc_button  sc_button_skin_dark sc_button_style_bg sc_button_size_medium">the health farm deal</a></div><div class=" sc_columns_item  sc_columns_item_coun_2 even"><h3 class="sc_title  sc_title_left" style="margin-bottom:30px;text-transform: none;">
+organic WINES</h3><div style="margin-bottom:25px !important;width:405px;" class="sc_image align"><a href="wp-content/uploads/2015/01/211.jpg"><img src="wp-content/uploads/2015/01/211-405x260.jpg" alt=""/></a></div><p class="sc_text " style="text-align: left">
+Join us most Thursdays at 6pm CST for #healthyfarm Twitter chats.</p><a href="#" style=" margin-top:5px;" class="sc_button  sc_button_skin_dark sc_button_style_bg sc_button_size_medium">events</a></div><div class=" sc_columns_item  sc_columns_item_coun_3 odd"><h3 class="sc_title  sc_title_left" style="margin-bottom:30px;text-transform: none;">
+gift CARDS</h3><div style="margin-bottom:25px !important;width:405px;" class="sc_image align"><a href="wp-content/uploads/2015/01/23.jpg"><img src="wp-content/uploads/2015/01/23-405x260.jpg" alt=""/></a></div><p class="sc_text " style="text-align: left">
+These lightly spiced pillowy potato dumplings made with sweet potatoes are great with pesto or roasted veggies.</p><a href="#" style=" margin-top:5px;" class="sc_button  sc_button_skin_dark sc_button_style_bg sc_button_size_medium">sweet potato gnocchi</a></div></div><div class="sc_slider  sc_slider_swiper sc_slider_controls swiper-container" style="margin-top:90px;margin-bottom:100px;margin-left:25px;margin-right:25px;height:597px;"><ul class="slides swiper-wrapper" data-settings="none"><li class=" swiper-slide" data-theme="dark" style="background-image:url(wp-content/uploads/2015/01/1223-1240x597.jpg); height:597px;"><a href="wp-content/uploads/2015/01/1223.jpg"></a></li><li class=" swiper-slide" data-theme="dark" style="background-image:url(wp-content/uploads/2015/01/4234-1240x597.jpg); height:597px;"><a href="wp-content/uploads/2015/01/4234.jpg"></a></li><li class=" swiper-slide" data-theme="dark" style="background-image:url(wp-content/uploads/2015/01/789876-1240x597.jpg); height:597px;"><a href="wp-content/uploads/2015/01/789876.jpg"></a></li></ul>
+<ul class="slider-control-nav">
+<li class="slide-prev"><a class="icon-left-open-big" href="#"></a></li>
+<li class="slide-next"><a class="icon-right-open-big" href="#"></a></li>
+</ul></div><p class="sc_text " style="margin-bottom:45px;font-weight:500;color:#1a1a1a;text-transform: uppercase;font-size: 36px;line-height: 43.2px;text-align: center">
+Our partners</p><div class=" sc_columns  sc_columns_7 sc_columns_indent" style=" margin-bottom:80px; width:1240px;"><div class=" sc_columns_item  sc_columns_item_coun_1 odd first"><div class="sc_image align"><a href="index.html"><img src="wp-content/uploads/2015/01/q1-1240x468.png" alt=""/></a></div></div><div class=" sc_columns_item  sc_columns_item_coun_2 even"><div class="sc_image align"><a href="index.html"><img src="wp-content/uploads/2015/01/q2-1240x468.png" alt=""/></a></div></div><div class=" sc_columns_item  sc_columns_item_coun_3 odd"><div class="sc_image align"><a href="index.html"><img src="wp-content/uploads/2015/01/q3-1240x468.png" alt=""/></a></div></div><div class=" sc_columns_item  sc_columns_item_coun_4 even"><div class="sc_image align"><a href="index.html"><img src="wp-content/uploads/2015/01/q4-1240x468.png" alt=""/></a></div></div><div class=" sc_columns_item  sc_columns_item_coun_5 odd"><div class="sc_image align"><a href="index.html"><img src="wp-content/uploads/2015/01/q5-1240x468.png" alt=""/></a></div></div><div class=" sc_columns_item  sc_columns_item_coun_6 even"><div class="sc_image align"><a href="index.html"><img src="wp-content/uploads/2015/01/q7-1240x468.png" alt=""/></a></div></div><div class=" sc_columns_item  sc_columns_item_coun_7 odd"><div class="sc_image align"><a href="index.html"><img src="wp-content/uploads/2015/01/q6-1240x468.png" alt=""/></a></div></div></div></div></div></div></div></div>
+</div>
+</article>
+</section>
+ 
+<script type="text/javascript">
+	jQuery(document).ready(function() {
+		jQuery.post(THEMEREX_ajax_url, {
+			action: 'post_counter',
+			nonce: THEMEREX_ajax_nonce,
+			post_id: 3314,
+			views: 89037		});
+	});
+</script>
+</div> 
+</div> 
+</div> 
+<footer class="footerWidget">
+<div class="sc_columns_6 sc_columns_indent"><div class="widget_area"><aside id="themerex-recent-posts-widget-10" class="sc_columns_item widget-number-1 widgetWrap widget_recent_posts widget_trex_post"><h4 class="title">Healthy Recipes</h4><ul><li><a href="indexfd6e.html?p=3164">Healthy Living Recipes</a></li><li><a href="index3b0f.html?p=3149">Healthy & Happy</a></li><li><a href="index0dff.html?p=2509">Healthy And Portable High-protein Snacks</a></li><li><a href="indexa1f1.html?p=2103">10 Reasons to Avoid GMOs</a></li></ul></aside><aside id="themerex-social-widget-2" class="sc_columns_item widget-number-2 widgetWrap widget_socials"><h4 class="title">Connect with us</h4> <div class="widget_inner">
+<div class="logo_descr">Don't miss our news, live chats, lively debates, and inspiring stories. Follow us on social networks!</div>
+<ul class="social_style_images"><li><a class="social_icons" href="https://www.facebook.com/pages/ThemeRex-Web-Studio/394746287348477" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/facebook.png" alt=""/></a></li><li><a class="social_icons" href="https://twitter.com/Theme_REX" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/twitter.png" alt=""/></a></li><li><a class="social_icons" href="https://www.behance.net/themerex" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/behance.png" alt=""/></a></li><li><a class="social_icons" href="https://www.youtube.com/channel/UCnFisBimrK2aIE-hnY70kCA" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/youtube.png" alt=""/></a></li><li><a class="social_icons" href="#" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/dribbble.png" alt=""/></a></li><li><a class="social_icons" href="#" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/rss.png" alt=""/></a></li><li><a class="social_icons" href="#" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/pinterest.png" alt=""/></a></li><li><a class="social_icons" href="#" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/linkedin.png" alt=""/></a></li><li><a class="social_icons" href="#" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/gplus.png" alt=""/></a></li><li><a class="social_icons" href="#" target="_blank"><img src="wp-content/themes/healthy-farm/images/socials/vimeo.png" alt=""/></a></li></ul> </div>
+</aside><aside id="themerex-recent-posts-widget-9" class="sc_columns_item widget-number-3 widgetWrap widget_recent_posts widget_trex_post"><h4 class="title">Recent posts</h4><div class="post_item first"><div class="post_thumb image_wrapper"><img class="wp-post-image" width="60" height="60" alt="Gluten-Free Baked Goods" src="wp-content/uploads/2015/01/12-60x60.jpg"></div><div class="post_wrapper">
+<div class="post_title theme_title"><a href="indexa474.html?p=3629">Gluten-Free Baked Goods</a></div>
+<div class="post_info theme_info"><span class="post_date theme_text">January 22, 2015</span><span class="post_author"> by <a href="indexcd64.html?author=1">trx_user</a></span><br/><span class="post_comments_text"><a href="indexa474.html?p=3629"><span class="post_comments_number">1571</span> views</a></span></div></div></div><div class="post_item"><div class="post_thumb image_wrapper"><img class="wp-post-image" width="60" height="60" alt="Healthy Food Guide" src="wp-content/uploads/2015/01/22-60x60.jpg"></div><div class="post_wrapper">
+<div class="post_title theme_title"><a href="index3049.html?p=3627">Healthy Food Guide</a></div>
+<div class="post_info theme_info"><span class="post_date theme_text">January 22, 2015</span><span class="post_author"> by <a href="indexcd64.html?author=1">trx_user</a></span><br/><span class="post_comments_text"><a href="index3049.html?p=3627"><span class="post_comments_number">1723</span> views</a></span></div></div></div></aside><aside id="themerex-recent-posts-widget-13" class="sc_columns_item widget-number-4 widgetWrap widget_recent_posts widget_trex_post"><h4 class="title">Blogs</h4><ul><li><a href="indexa474.html?p=3629">Gluten-Free Baked Goods</a></li><li><a href="index3049.html?p=3627">Healthy Food Guide</a></li><li><a href="indexd4ec.html?p=3625">Organic & Natural</a></li><li><a href="indexaf4f.html?p=1805">The Farm Story</a></li><li><a href="index922d.html?p=1796">Plum cake</a></li><li><a href="indexc8d7.html?p=1533">GMOs: Your Right to Know</a></li><li><a href="indexd543.html?p=2106">John Mackey's Blog</a></li></ul></aside><aside id="tag_cloud-6" class="sc_columns_item widget-number-5 widgetWrap widget_tag_cloud"><h4 class="title">Tags</h4><div class="tagcloud"><a href='indexe939.html?tag=audio' class='tag-link-33 tag-link-position-1' title='1 topic' style='font-size: 8pt;'>Audio</a>
+<a href='index1b10.html?tag=brand' class='tag-link-76 tag-link-position-2' title='4 topics' style='font-size: 14.913580246914pt;'>Brand</a>
+<a href='index11a2.html?tag=brands' class='tag-link-137 tag-link-position-3' title='1 topic' style='font-size: 8pt;'>Brands</a>
+<a href='index2419.html?tag=food' class='tag-link-141 tag-link-position-4' title='8 topics' style='font-size: 19.234567901235pt;'>Food</a>
+<a href='indexe096.html?tag=fresh' class='tag-link-140 tag-link-position-5' title='3 topics' style='font-size: 13.185185185185pt;'>Fresh</a>
+<a href='index767b.html?tag=lifestyle' class='tag-link-134 tag-link-position-6' title='7 topics' style='font-size: 18.37037037037pt;'>Lifestyle</a>
+<a href='indexd900.html?tag=new' class='tag-link-136 tag-link-position-7' title='1 topic' style='font-size: 8pt;'>New</a>
+<a href='indexb781.html?tag=organic' class='tag-link-135 tag-link-position-8' title='12 topics' style='font-size: 22pt;'>Organic</a>
+<a href='index7c61.html?tag=people' class='tag-link-31 tag-link-position-9' title='1 topic' style='font-size: 8pt;'>People</a>
+<a href='index75f8.html?tag=photo' class='tag-link-41 tag-link-position-10' title='1 topic' style='font-size: 8pt;'>Photo</a>
+<a href='index3b67.html?tag=products' class='tag-link-144 tag-link-position-11' title='8 topics' style='font-size: 19.234567901235pt;'>Products</a></div>
+</aside><aside id="themerex-recent-posts-widget-12" class="sc_columns_item widget-number-6 widgetWrap widget_recent_posts widget_trex_post"><h4 class="title">Eating &#038; Cooking</h4><ul><li><a href="index922d.html?p=1796">Plum cake</a></li><li><a href="indexbc9e.html?p=299">Cooking time!</a></li><li><a href="index0bc1.html?p=1808">Healthy Eating</a></li><li><a href="index410c.html?p=3271">About organic products</a></li><li><a href="index311e.html?p=3268">Walter Robb's Blog</a></li><li><a href="index50ff.html?p=3275">What our clients think</a></li><li><a href="index9437.html?p=1799">New Post Without Images</a></li></ul></aside></div></div><div class="copyright"><a href='http://themerex.net/'>ThemeREX</a> &copy; 2017 All Rights Reserved.Terms of Use and Privacy Policy.</div> <div class="custom_footer">
+<div class="text">Join to Healthy Farm</div>
+<div class="sc_emailer "><form class="sc_eform_form  sc_eform_opened sc_eform_show" data-type="emailer"><a href="#" class="sc_eform_button sc_button sc_button_skin_dark sc_button_style_bg sc_button_size_medium ico icon-mail" title="Submit" data-group="E-mail collector group"></a><div class="sc_eform_wrap"><input type="text" class="sc_eform_input" name="email" value="" placeholder="Please, enter you email address."></div></form></div> </div>
+ 
+</footer>
+</div> 
+</div> 
+<div class="buttonScrollUp upToScroll icon-up-open-micro"></div>
+<div id="user-popUp" class="user-popUp mfp-with-anim mfp-hide">
+<div class="sc_tabs sc_tabs sc_tabs_style_1 sc_tabs_effects ">
+<ul class="sc_tabs_titles">
+<li><a href="#loginForm" class="loginFormTab">Log In</a></li>
+<li><a href="#registerForm" class="registerFormTab">Create an Account</a></li>
+</ul>
+<div class="sc_tabs_array">
+<div id="loginForm" class="formItems loginFormBody sc_columns_2">
+<form action="http://healthyfarm.themerex.net/wp-login.php" method="post" name="login_form" class="formValid">
+<div class="sc_columns_item">
+<input type="hidden" name="redirect_to" value="index.html"/>
+<ul class="formList">
+<li class="formLogin"><input type="text" id="login" name="log" value="" placeholder="Email"></li>
+<li class="formPass"><input type="password" id="password" name="pwd" value="" placeholder="Password"></li>
+<li class="remember">
+<a href="wp-loginc2b6.html?action=lostpassword" class="forgotPwd">Forgot password?</a>
+<input type="checkbox" value="forever" id="rememberme" name="rememberme">
+<label for="rememberme">Remember me</label>
+</li>
+<li class="formButton"><a href="#" class="sendEnter enter sc_button sc_button_skin_global sc_button_style_bg sc_button_size_medium">Login</a></li>
+</ul>
+</div>
+<div class="sc_columns_item">
+<ul class="formList">
+<li>You can login using your social profile</li>
+<li class="loginSoc">
+<a href="#" class="iconLogin fb icon-facebook"></a>
+<a href="#" class="iconLogin tw icon-twitter"></a>
+<a href="#" class="iconLogin gg icon-gplus"></a>
+</li>
+<li><a href="#">Problem with login?</a></li>
+</ul>
+</div>
+<div class="sc_result result sc_infobox sc_infobox_closeable"></div>
+</form>
+</div>
+<div id="registerForm" class="formItems registerFormBody sc_columns_2">
+<form name="register_form" method="post" class="formValid">
+<input type="hidden" name="redirect_to" value="index.html"/>
+<div class="sc_columns_item">
+<ul class="formList">
+<li class="formUser"><input type="text" id="registration_username" name="registration_username" value="" placeholder="User name (login)"></li>
+<li class="formLogin"><input type="text" id="registration_email" name="registration_email" value="" placeholder="E-mail"></li>
+<li class="i-agree">
+<input type="checkbox" value="forever" id="i-agree" name="i-agree">
+<label for="i-agree">I agree with</label> <a href="#">Terms & Conditionst</a>
+</li>
+<li class="formButton"><a href="#" class="sendEnter enter sc_button sc_button_skin_dark sc_button_style_bg sc_button_size_medium">Sing UP</a></li>
+</ul>
+</div>
+<div class="sc_columns_item">
+<ul class="formList">
+<li class="formPass"><input type="password" id="registration_pwd" name="registration_pwd" value="" placeholder="Password"></li>
+<li class="formPass"><input type="password" id="registration_pwd2" name="registration_pwd2" value="" placeholder="Confirm Password"></li>
+</ul>
+</div>
+<div class="sc_result result sc_infobox sc_infobox_closeable"></div>
+</form>
+</div>
+</div>
+</div>  
+</div>  
+<script type="text/javascript">
+jQuery(document).ready(function() {
+			jQuery.reject({
+			reject : {
+				all: false, // Nothing blocked
+				msie5: true, msie6: true, msie7: true, msie8: true // Covers MSIE 5-8
+				/*
+				 * Possibilities are endless...
+				 *
+				 * // MSIE Flags (Global, 5-8)
+				 * msie, msie5, msie6, msie7, msie8,
+				 * // Firefox Flags (Global, 1-3)
+				 * firefox, firefox1, firefox2, firefox3,
+				 * // Konqueror Flags (Global, 1-3)
+				 * konqueror, konqueror1, konqueror2, konqueror3,
+				 * // Chrome Flags (Global, 1-4)
+				 * chrome, chrome1, chrome2, chrome3, chrome4,
+				 * // Safari Flags (Global, 1-4)
+				 * safari, safari2, safari3, safari4,
+				 * // Opera Flags (Global, 7-10)
+				 * opera, opera7, opera8, opera9, opera10,
+				 * // Rendering Engines (Gecko, Webkit, Trident, KHTML, Presto)
+				 * gecko, webkit, trident, khtml, presto,
+				 * // Operating Systems (Win, Mac, Linux, Solaris, iPhone)
+				 * win, mac, linux, solaris, iphone,
+				 * unknown // Unknown covers everything else
+				 */
+			},
+			imagePath: "http://healthyfarm.themerex.net/wp-content/themes/healthy-farm/js/jreject/images/",
+			header: "Your browser is out of date", // Header Text
+			paragraph1: "You are currently using an unsupported browser", // Paragraph 1
+			paragraph2: "Please install one of the many optional browsers below to proceed",
+			closeMessage: "Close this window at your own demise!" // Message below close window link
+		});
+	});
+
+
+// Video and Audio tag wrapper
+var THEMEREX_useMediaElement = true;
+
+//fonts 
+var THEMEREX_GLOBAL_FONTS = 'Cantarell';
+var THEMEREX_HEADER_FONTS = 'Raleway';
+
+// E-mail mask
+THEMEREX_EMAIL_MASK = '^([a-zA-Z0-9_\\-]+\\.)*[a-zA-Z0-9_\\-]+@[a-z0-9_\\-]+(\\.[a-z0-9_\\-]+)*\\.[a-z]{2,6}$';
+
+THEMEREX_MAGNIFIC_EFFECT_OPEN = "mfp-zoom-in";
+
+THEMEREX_RESPONSIVE_MENU = "800";
+
+// Javascript String constants for translation
+THEMEREX_MESSAGE_EMAIL_ADDED	= "Your address %s has been successfully added to the subscription list";
+THEMEREX_MESSAGE_EMAIL_CONFIRM	= "On the e-mail address <b>%s</b> we sent a confirmation email.<br>Please, open it and click on the link.";
+THEMEREX_REVIEWS_VOTE			= "Thanks for your vote! New average rating is:";
+THEMEREX_REVIEWS_ERROR			= "Error saving your vote! Please, try again later.";
+THEMEREX_MAGNIFIC_LOADING   	= "Loading image %curr% ...";
+THEMEREX_MAGNIFIC_ERROR     	= "<a href=\"%url%\">The image %curr%</a> could not be loaded.";
+THEMEREX_MESSAGE_ERROR_LIKE 	= "Error saving your like! Please, try again later.";
+THEMEREX_SC_SKILLS				= "Skills";
+THEMEREX_GLOBAL_ERROR_TEXT		= "Global error text";
+THEMEREX_NAME_EMPTY				= "The name can't be empty";
+THEMEREX_NAME_LONG 				= "Too long name";
+THEMEREX_EMAIL_EMPTY 			= "Too short (or empty) email address";
+THEMEREX_EMAIL_LONG				= "Too long email address";
+THEMEREX_EMAIL_NOT_VALID 		= "Invalid email address";
+THEMEREX_SUBJECT_EMPTY			= "The subject can't be empty";
+THEMEREX_SUBJECT_LONG 			= "Too long subject";
+THEMEREX_MESSAGE_EMPTY 			= "The message text can't be empty";
+THEMEREX_MESSAGE_LONG 			= "Too long message text";
+THEMEREX_SEND_COMPLETE 			= "Send message complete!";
+THEMEREX_SEND_ERROR 			= "Transmit failed!";
+THEMEREX_LOGIN_EMPTY			= "The Login field can't be empty";
+THEMEREX_LOGIN_LONG				= "Too long login field";
+THEMEREX_PASSWORD_EMPTY			= "The password can't be empty and shorter then 5 characters";
+THEMEREX_PASSWORD_LONG			= "Too long password";
+THEMEREX_PASSWORD_NOT_EQUAL		= "The passwords in both fields are not equal";
+THEMEREX_REGISTRATION_SUCCESS	= "Registration success! Please log in!";
+THEMEREX_REGISTRATION_FAILED	= "Registration failed!";
+THEMEREX_REGISTRATION_AUTHOR	= "Your account is waiting for the site admin moderation!";
+THEMEREX_GEOCODE_ERROR 			= "Geocode was not successful for the following reason:";
+THEMEREX_GOOGLE_MAP_NOT_AVAIL	= "Google map API not available!";
+THEMEREX_NAVIGATE_TO			= "Navigate to...";
+
+THEMEREX_SAVE_SUCCESS			= "Post content saved!";
+THEMEREX_SAVE_ERROR				= "Error saving post data!";
+THEMEREX_DELETE_POST_MESSAGE	= "You really want to delete the current post?";
+THEMEREX_DELETE_POST			= "Delete post";
+THEMEREX_DELETE_SUCCESS			= "Post deleted!";
+THEMEREX_DELETE_ERROR			= "Error deleting post!";
+
+// System message
+var THEMEREX_systemMessage = {message:"", status: "", header: ""};
+
+// AJAX parameters
+var THEMEREX_ajax_url = "wp-admin/admin-ajax.html";
+var THEMEREX_ajax_nonce = "182695ce45";
+
+// Site base url
+var THEMEREX_site_url = "index.html";
+
+// Theme base url
+var THEMEREX_theme_url = "wp-content/themes/healthy-farm/index.html";
+
+</script>
+<link rel='stylesheet' id='swiperslider-style-css' href='wp-content/themes/healthy-farm/js/swiper/idangerous.swiper.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='swiperslider-scrollbar-style-css' href='wp-content/themes/healthy-farm/js/swiper/idangerous.swiper.scrollbar.css' type='text/css' media='all'/>
+<link rel='stylesheet' id='magnific-style-css' href='wp-content/themes/healthy-farm/js/magnific-popup/magnific-popup.css' type='text/css' media='all'/>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/jreject/jquery.reject.js'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.minc141.js?ver=2.6.1'></script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min330a.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.minc141.js?ver=2.6.1'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/jquery.easing.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/jquery.autosize.js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/core.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/widget.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/tabs.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/effect.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-fade.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/superfish.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/_utils.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/_front.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/includes/shortcodes/shortcodes_init.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/hover/jquery.hoverdir.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/hover/hoverIntent.js'></script>
+<script type='text/javascript' src='wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.min0147.js?ver=4.12'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/jquery.isotope.pkgd.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/_form_login.js'></script>
+<script type='text/javascript' src='wp-includes/js/comment-reply.min62df.js?ver=4.5.6'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/_form_comments.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/messages/_messages.js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/mouse.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/draggable.mine899.js?ver=1.11.4'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/_customizer.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/_reviews.js'></script>
+<script type='text/javascript' src='wp-includes/js/wp-embed.min62df.js?ver=4.5.6'></script>
+<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min0147.js?ver=4.12'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/swiper/idangerous.swiper-2.1.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/swiper/idangerous.swiper.scrollbar-2.1.js'></script>
+<script type='text/javascript' src='wp-content/themes/healthy-farm/js/magnific-popup/jquery.magnific-popup.min.js'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/effect-slide.mine899.js?ver=1.11.4'></script>
 <script>
 
 $(function() {
